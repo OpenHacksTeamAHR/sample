@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RadarSDK
 
 func vibrateTime(dist: Float) -> Float {
     if (dist>=12){
@@ -18,4 +19,3 @@ func vibrateTime(dist: Float) -> Float {
 func distBetween(xone:Float, yone:Float, xtwo:Float, ytwo:Float) -> Float{
     return sqrtf((yone-ytwo)*(yone-ytwo)-(xone-xtwo)*(xone-xtwo))
 }
-

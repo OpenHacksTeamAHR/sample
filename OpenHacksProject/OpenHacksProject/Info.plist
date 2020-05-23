@@ -56,7 +56,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Needed to track when to vibrate</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Needs location to work</string>
+	<key>Privacy - Location Always Use</key>
+	<string>Needs location to work</string>
 </dict>
 </plist>

@@ -12,12 +12,11 @@ import RadarSDK
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         Radar.initialize(publishableKey: "prj_live_pk_30f7f876bf55bd982f09410b6fb608c9184955b0")
-        Radar.setUserId("user")
+        let locManager = CLLocationManager()
+        locManager.requestWhenInUseAuthorization()
         return true
     }
 
