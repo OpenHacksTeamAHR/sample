@@ -9,15 +9,23 @@
 import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-    @IBOutlet weak var myButton: UIButton!
-    @IBOutlet weak var myView: UIView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    class ViewController: UIViewController {
+
+        @IBOutlet weak var backgroundGradientView: UIView!
         
-        myButton.layer.cornerRadius = myButton.frame.size.height/2
-        myButton.layer.masksToBounds = true
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            let gradientLayer = CAGradientLayer()
+            gradientLayer.frame = view.bounds
+            gradientLayer.colors = [#colorLiteral(red: 0, green: 0.5725490196, blue: 0.2705882353, alpha: 1).cgColor, UIColor(red: 252/255, green: 238/255, blue: 33/255, alpha: 1).cgColor]
+            gradientLayer.shouldRasterize = true
+            backgroundGradientView.layer.addSublayer(gradientLayer)
+        }
+
+        override var shouldAutorotate: Bool {
+            return false
+        }
         
-        view.setGradientBackground(colorOne: Colors.blue, colortwo: Colors.red)
-    }
+ 
 }
+
