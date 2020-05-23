@@ -15,3 +15,7 @@ func vibrateTime(dist: Float) -> Float {
     return Float(pow(Double(1.2),Double(dist)))/6
 }
 
+func distBetween(xone:Float, yone:Float, xtwo:Float, ytwo:Float) -> Float{
+    return sqrtf((yone-ytwo)*(yone-ytwo)-(xone-xtwo)*(xone-xtwo))
+}
+

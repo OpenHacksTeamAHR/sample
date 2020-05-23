@@ -16,6 +16,7 @@
 		59F9A17C24786EAE00C998CE /* OpenHacksProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A17B24786EAE00C998CE /* OpenHacksProjectTests.swift */; };
 		59F9A18724786EAF00C998CE /* OpenHacksProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A18624786EAF00C998CE /* OpenHacksProjectUITests.swift */; };
 		BBD58EFA24798DE90028CD6C /* InLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD58EF924798DE90028CD6C /* InLocation.swift */; };
+		BBD58F0024799E000028CD6C /* RadarSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD58EFF24799E000028CD6C /* RadarSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		59F9A18624786EAF00C998CE /* OpenHacksProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHacksProjectUITests.swift; sourceTree = "<group>"; };
 		59F9A18824786EAF00C998CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBD58EF924798DE90028CD6C /* InLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InLocation.swift; sourceTree = "<group>"; };
+		BBD58EFF24799E000028CD6C /* RadarSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RadarSDK.framework; path = "../../../../Downloads/Users/nickpatrick/Dropbox/dev/radar/radar-sdk-ios/dist/RadarSDK.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD58F0024799E000028CD6C /* RadarSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +104,7 @@
 		59F9A16324786EAB00C998CE /* OpenHacksProject */ = {
 			isa = PBXGroup;
 			children = (
+				BBD58EFF24799E000028CD6C /* RadarSDK.framework */,
 				59F9A16424786EAB00C998CE /* AppDelegate.swift */,
 				59F9A16624786EAB00C998CE /* SceneDelegate.swift */,
 				BBD58EF924798DE90028CD6C /* InLocation.swift */,
