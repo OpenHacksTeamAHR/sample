@@ -8,5 +8,10 @@
 
 import Foundation
 
-
+func vibrateTime(dist: Float) -> Float {
+    if (dist>=12){
+        return 0
+    }
+    return Float(pow(Double(1.2),Double(dist)))/6
+}
 
