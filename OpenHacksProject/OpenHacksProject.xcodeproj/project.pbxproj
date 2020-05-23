@@ -133,8 +133,8 @@
 			children = (
 				BBD58EFF24799E000028CD6C /* RadarSDK.framework */,
 				59F9A16424786EAB00C998CE /* AppDelegate.swift */,
-				59F9A16624786EAB00C998CE /* SceneDelegate.swift */,
 				BBD58EF924798DE90028CD6C /* InLocation.swift */,
+				59F9A16624786EAB00C998CE /* SceneDelegate.swift */,
 				59F9A16824786EAB00C998CE /* ContentView.swift */,
 				59F9A16A24786EAE00C998CE /* Assets.xcassets */,
 				59F9A16F24786EAE00C998CE /* LaunchScreen.storyboard */,
