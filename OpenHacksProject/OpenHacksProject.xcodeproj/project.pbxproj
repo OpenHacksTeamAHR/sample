@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550EC6E2DBA4A88AA26439BF /* Pods_OpenHacksProject_OpenHacksProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFD88E138E5676A972A4F83 /* Pods_OpenHacksProject_OpenHacksProjectUITests.framework */; };
 		59F9A16524786EAB00C998CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A16424786EAB00C998CE /* AppDelegate.swift */; };
 		59F9A16724786EAB00C998CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A16624786EAB00C998CE /* SceneDelegate.swift */; };
 		59F9A16924786EAB00C998CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A16824786EAB00C998CE /* ContentView.swift */; };
@@ -15,6 +16,8 @@
 		59F9A17124786EAE00C998CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F9A16F24786EAE00C998CE /* LaunchScreen.storyboard */; };
 		59F9A17C24786EAE00C998CE /* OpenHacksProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A17B24786EAE00C998CE /* OpenHacksProjectTests.swift */; };
 		59F9A18724786EAF00C998CE /* OpenHacksProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A18624786EAF00C998CE /* OpenHacksProjectUITests.swift */; };
+		79B14BFDBF561331A1108E95 /* Pods_OpenHacksProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FDFFC5E719ED8942920BDA /* Pods_OpenHacksProjectTests.framework */; };
+		8B6D13CD9FBE90BAEAD4E000 /* Pods_OpenHacksProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B933FC61E8D2C4F3D0ABE /* Pods_OpenHacksProject.framework */; };
 		BBD58EFA24798DE90028CD6C /* InLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD58EF924798DE90028CD6C /* InLocation.swift */; };
 		BBD58F0024799E000028CD6C /* RadarSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD58EFF24799E000028CD6C /* RadarSDK.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EA0A44ED1F5824BC96E02C6 /* Pods-OpenHacksProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenHacksProject.release.xcconfig"; path = "Target Support Files/Pods-OpenHacksProject/Pods-OpenHacksProject.release.xcconfig"; sourceTree = "<group>"; };
+		399D3DF000FFC19E0B97D504 /* Pods-OpenHacksProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenHacksProject.debug.xcconfig"; path = "Target Support Files/Pods-OpenHacksProject/Pods-OpenHacksProject.debug.xcconfig"; sourceTree = "<group>"; };
 		59F9A16124786EAB00C998CE /* OpenHacksProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenHacksProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F9A16424786EAB00C998CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59F9A16624786EAB00C998CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,8 +56,15 @@
 		59F9A18224786EAF00C998CE /* OpenHacksProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenHacksProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F9A18624786EAF00C998CE /* OpenHacksProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHacksProjectUITests.swift; sourceTree = "<group>"; };
 		59F9A18824786EAF00C998CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649B933FC61E8D2C4F3D0ABE /* Pods_OpenHacksProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenHacksProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FDFFC5E719ED8942920BDA /* Pods_OpenHacksProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenHacksProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD58EF924798DE90028CD6C /* InLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InLocation.swift; sourceTree = "<group>"; };
 		BBD58EFF24799E000028CD6C /* RadarSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RadarSDK.framework; path = "../../../../Downloads/Users/nickpatrick/Dropbox/dev/radar/radar-sdk-ios/dist/RadarSDK.framework"; sourceTree = "<group>"; };
+		BEFD88E138E5676A972A4F83 /* Pods_OpenHacksProject_OpenHacksProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenHacksProject_OpenHacksProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF437930FEB40C14101A42D /* Pods-OpenHacksProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenHacksProjectTests.release.xcconfig"; path = "Target Support Files/Pods-OpenHacksProjectTests/Pods-OpenHacksProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		F03AB0FD2C8C076BA0ED04D5 /* Pods-OpenHacksProject-OpenHacksProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenHacksProject-OpenHacksProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-OpenHacksProject-OpenHacksProjectUITests/Pods-OpenHacksProject-OpenHacksProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5485D876FF055165AEEAD45 /* Pods-OpenHacksProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenHacksProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-OpenHacksProjectTests/Pods-OpenHacksProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9A36216156DECD3387C16D9 /* Pods-OpenHacksProject-OpenHacksProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenHacksProject-OpenHacksProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenHacksProject-OpenHacksProjectUITests/Pods-OpenHacksProject-OpenHacksProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBD58F0024799E000028CD6C /* RadarSDK.framework in Frameworks */,
+				8B6D13CD9FBE90BAEAD4E000 /* Pods_OpenHacksProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B14BFDBF561331A1108E95 /* Pods_OpenHacksProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550EC6E2DBA4A88AA26439BF /* Pods_OpenHacksProject_OpenHacksProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AA5B531C79250523C2B9DB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				649B933FC61E8D2C4F3D0ABE /* Pods_OpenHacksProject.framework */,
+				BEFD88E138E5676A972A4F83 /* Pods_OpenHacksProject_OpenHacksProjectUITests.framework */,
+				90FDFFC5E719ED8942920BDA /* Pods_OpenHacksProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		59F9A15824786EAB00C998CE = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +113,8 @@
 				59F9A17A24786EAE00C998CE /* OpenHacksProjectTests */,
 				59F9A18524786EAF00C998CE /* OpenHacksProjectUITests */,
 				59F9A16224786EAB00C998CE /* Products */,
+				A594AE9BF6313F73C1CD050F /* Pods */,
+				2AA5B531C79250523C2B9DB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +170,20 @@
 			path = OpenHacksProjectUITests;
 			sourceTree = "<group>";
 		};
+		A594AE9BF6313F73C1CD050F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				399D3DF000FFC19E0B97D504 /* Pods-OpenHacksProject.debug.xcconfig */,
+				2EA0A44ED1F5824BC96E02C6 /* Pods-OpenHacksProject.release.xcconfig */,
+				F9A36216156DECD3387C16D9 /* Pods-OpenHacksProject-OpenHacksProjectUITests.debug.xcconfig */,
+				F03AB0FD2C8C076BA0ED04D5 /* Pods-OpenHacksProject-OpenHacksProjectUITests.release.xcconfig */,
+				F5485D876FF055165AEEAD45 /* Pods-OpenHacksProjectTests.debug.xcconfig */,
+				CEF437930FEB40C14101A42D /* Pods-OpenHacksProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59F9A18B24786EAF00C998CE /* Build configuration list for PBXNativeTarget "OpenHacksProject" */;
 			buildPhases = (
+				B1A3C86786B2BE2B8025A1E6 /* [CP] Check Pods Manifest.lock */,
 				59F9A15D24786EAB00C998CE /* Sources */,
 				59F9A15E24786EAB00C998CE /* Frameworks */,
 				59F9A15F24786EAB00C998CE /* Resources */,
@@ -167,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59F9A18E24786EAF00C998CE /* Build configuration list for PBXNativeTarget "OpenHacksProjectTests" */;
 			buildPhases = (
+				5D1A189F4E487EBF69A42097 /* [CP] Check Pods Manifest.lock */,
 				59F9A17324786EAE00C998CE /* Sources */,
 				59F9A17424786EAE00C998CE /* Frameworks */,
 				59F9A17524786EAE00C998CE /* Resources */,
@@ -185,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59F9A19124786EAF00C998CE /* Build configuration list for PBXNativeTarget "OpenHacksProjectUITests" */;
 			buildPhases = (
+				6BFF6514090E5A7AD7C52498 /* [CP] Check Pods Manifest.lock */,
 				59F9A17E24786EAF00C998CE /* Sources */,
 				59F9A17F24786EAF00C998CE /* Frameworks */,
 				59F9A18024786EAF00C998CE /* Resources */,
@@ -268,6 +312,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D1A189F4E487EBF69A42097 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenHacksProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BFF6514090E5A7AD7C52498 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenHacksProject-OpenHacksProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1A3C86786B2BE2B8025A1E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenHacksProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		59F9A15D24786EAB00C998CE /* Sources */ = {
@@ -440,6 +553,7 @@
 		};
 		59F9A18C24786EAF00C998CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 399D3DF000FFC19E0B97D504 /* Pods-OpenHacksProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,6 +574,7 @@
 		};
 		59F9A18D24786EAF00C998CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA0A44ED1F5824BC96E02C6 /* Pods-OpenHacksProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -480,6 +595,7 @@
 		};
 		59F9A18F24786EAF00C998CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5485D876FF055165AEEAD45 /* Pods-OpenHacksProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +618,7 @@
 		};
 		59F9A19024786EAF00C998CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF437930FEB40C14101A42D /* Pods-OpenHacksProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +641,7 @@
 		};
 		59F9A19224786EAF00C998CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A36216156DECD3387C16D9 /* Pods-OpenHacksProject-OpenHacksProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +662,7 @@
 		};
 		59F9A19324786EAF00C998CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03AB0FD2C8C076BA0ED04D5 /* Pods-OpenHacksProject-OpenHacksProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
