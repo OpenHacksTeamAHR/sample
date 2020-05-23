@@ -16,9 +16,9 @@
 		59F9A17124786EAE00C998CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F9A16F24786EAE00C998CE /* LaunchScreen.storyboard */; };
 		59F9A17C24786EAE00C998CE /* OpenHacksProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A17B24786EAE00C998CE /* OpenHacksProjectTests.swift */; };
 		59F9A18724786EAF00C998CE /* OpenHacksProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A18624786EAF00C998CE /* OpenHacksProjectUITests.swift */; };
-		59FBF9622479AD9600C769D2 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FBF95F2479AD9600C769D2 /* Gradient.swift */; };
-		59FBF9632479AD9600C769D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FBF9602479AD9600C769D2 /* ViewController.swift */; };
-		59FBF9642479AD9600C769D2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FBF9612479AD9600C769D2 /* Constants.swift */; };
+		59FBF9682479BB7300C769D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FBF9652479BB7300C769D2 /* ViewController.swift */; };
+		59FBF9692479BB7300C769D2 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FBF9662479BB7300C769D2 /* Gradient.swift */; };
+		59FBF96A2479BB7300C769D2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FBF9672479BB7300C769D2 /* Constants.swift */; };
 		79B14BFDBF561331A1108E95 /* Pods_OpenHacksProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FDFFC5E719ED8942920BDA /* Pods_OpenHacksProjectTests.framework */; };
 		8B6D13CD9FBE90BAEAD4E000 /* Pods_OpenHacksProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649B933FC61E8D2C4F3D0ABE /* Pods_OpenHacksProject.framework */; };
 		BBD58EFA24798DE90028CD6C /* InLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD58EF924798DE90028CD6C /* InLocation.swift */; };
@@ -59,9 +59,9 @@
 		59F9A18224786EAF00C998CE /* OpenHacksProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenHacksProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F9A18624786EAF00C998CE /* OpenHacksProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHacksProjectUITests.swift; sourceTree = "<group>"; };
 		59F9A18824786EAF00C998CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59FBF95F2479AD9600C769D2 /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gradient.swift; path = ../../../../../Downloads/Github/OpenHacksProject/OpenHacksProject/Gradient.swift; sourceTree = "<group>"; };
-		59FBF9602479AD9600C769D2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../Downloads/Github/OpenHacksProject/OpenHacksProject/ViewController.swift; sourceTree = "<group>"; };
-		59FBF9612479AD9600C769D2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../../../../../Downloads/Github/OpenHacksProject/OpenHacksProject/Constants.swift; sourceTree = "<group>"; };
+		59FBF9652479BB7300C769D2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59FBF9662479BB7300C769D2 /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		59FBF9672479BB7300C769D2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		649B933FC61E8D2C4F3D0ABE /* Pods_OpenHacksProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenHacksProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FDFFC5E719ED8942920BDA /* Pods_OpenHacksProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenHacksProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD58EF924798DE90028CD6C /* InLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InLocation.swift; sourceTree = "<group>"; };
@@ -142,9 +142,9 @@
 				BBD58EF924798DE90028CD6C /* InLocation.swift */,
 				59F9A16624786EAB00C998CE /* SceneDelegate.swift */,
 				59F9A16824786EAB00C998CE /* ContentView.swift */,
-				59FBF9612479AD9600C769D2 /* Constants.swift */,
-				59FBF95F2479AD9600C769D2 /* Gradient.swift */,
-				59FBF9602479AD9600C769D2 /* ViewController.swift */,
+				59FBF9672479BB7300C769D2 /* Constants.swift */,
+				59FBF9662479BB7300C769D2 /* Gradient.swift */,
+				59FBF9652479BB7300C769D2 /* ViewController.swift */,
 				59F9A16A24786EAE00C998CE /* Assets.xcassets */,
 				59F9A16F24786EAE00C998CE /* LaunchScreen.storyboard */,
 				59F9A17224786EAE00C998CE /* Info.plist */,
@@ -395,13 +395,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59FBF9632479AD9600C769D2 /* ViewController.swift in Sources */,
-				59FBF9622479AD9600C769D2 /* Gradient.swift in Sources */,
 				59F9A16524786EAB00C998CE /* AppDelegate.swift in Sources */,
 				59F9A16724786EAB00C998CE /* SceneDelegate.swift in Sources */,
-				59FBF9642479AD9600C769D2 /* Constants.swift in Sources */,
+				59FBF96A2479BB7300C769D2 /* Constants.swift in Sources */,
 				59F9A16924786EAB00C998CE /* ContentView.swift in Sources */,
+				59FBF9682479BB7300C769D2 /* ViewController.swift in Sources */,
 				BBD58EFA24798DE90028CD6C /* InLocation.swift in Sources */,
+				59FBF9692479BB7300C769D2 /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
