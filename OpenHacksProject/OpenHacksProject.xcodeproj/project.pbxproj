@@ -200,7 +200,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = "Rahul Rao";
+				ORGANIZATIONNAME = "OpenHacks Project";
 				TargetAttributes = {
 					59F9A16024786EAB00C998CE = {
 						CreatedOnToolsVersion = 11.5;
