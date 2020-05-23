@@ -180,7 +180,6 @@
 				F5485D876FF055165AEEAD45 /* Pods-OpenHacksProjectTests.debug.xcconfig */,
 				CEF437930FEB40C14101A42D /* Pods-OpenHacksProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
