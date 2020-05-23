@@ -16,6 +16,8 @@
 		59F9A17C24786EAE00C998CE /* OpenHacksProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A17B24786EAE00C998CE /* OpenHacksProjectTests.swift */; };
 		59F9A18724786EAF00C998CE /* OpenHacksProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A18624786EAF00C998CE /* OpenHacksProjectUITests.swift */; };
 		5E15D1742479886E003470AB /* trial_webpage.htm in Resources */ = {isa = PBXBuildFile; fileRef = 5E15D1732479886E003470AB /* trial_webpage.htm */; };
+		5E15D17624798B7E003470AB /* JSFiddle.mhtml in Resources */ = {isa = PBXBuildFile; fileRef = 5E15D17524798B7E003470AB /* JSFiddle.mhtml */; };
+		5E15D17824798BA2003470AB /* JSFiddle.htm in Resources */ = {isa = PBXBuildFile; fileRef = 5E15D17724798BA2003470AB /* JSFiddle.htm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		59F9A18624786EAF00C998CE /* OpenHacksProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHacksProjectUITests.swift; sourceTree = "<group>"; };
 		59F9A18824786EAF00C998CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E15D1732479886E003470AB /* trial_webpage.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = trial_webpage.htm; path = ../../../../../Downloads/trial_webpage.htm; sourceTree = "<group>"; };
+		5E15D17524798B7E003470AB /* JSFiddle.mhtml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = JSFiddle.mhtml; path = ../../../JSFiddle.mhtml; sourceTree = "<group>"; };
+		5E15D17724798BA2003470AB /* JSFiddle.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = JSFiddle.htm; path = ../../../JSFiddle.htm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				59F9A16A24786EAE00C998CE /* Assets.xcassets */,
 				59F9A16F24786EAE00C998CE /* LaunchScreen.storyboard */,
 				5E15D1732479886E003470AB /* trial_webpage.htm */,
+				5E15D17724798BA2003470AB /* JSFiddle.htm */,
+				5E15D17524798B7E003470AB /* JSFiddle.mhtml */,
 				59F9A17224786EAE00C998CE /* Info.plist */,
 				59F9A16C24786EAE00C998CE /* Preview Content */,
 			);
@@ -245,6 +251,8 @@
 			files = (
 				59F9A17124786EAE00C998CE /* LaunchScreen.storyboard in Resources */,
 				59F9A16E24786EAE00C998CE /* Preview Assets.xcassets in Resources */,
+				5E15D17824798BA2003470AB /* JSFiddle.htm in Resources */,
+				5E15D17624798B7E003470AB /* JSFiddle.mhtml in Resources */,
 				5E15D1742479886E003470AB /* trial_webpage.htm in Resources */,
 				59F9A16B24786EAE00C998CE /* Assets.xcassets in Resources */,
 			);
