@@ -1,0 +1,6 @@
+framework module Pods_OpenHacksProject_OpenHacksProjectUITests {
+  umbrella header "Pods-OpenHacksProject-OpenHacksProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

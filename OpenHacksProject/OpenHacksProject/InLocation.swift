@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RadarSDK
 
 func vibrateTime(dist: Float) -> Float {
     if (dist>=12){

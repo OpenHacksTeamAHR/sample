@@ -1,0 +1,932 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7C4F8ADD8C1671062D4A7C0FBAA5C98C /* RadarSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 02A913BA5087965703FB7351FBB01FF8 /* Build configuration list for PBXAggregateTarget "RadarSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = RadarSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1BD5686D1A5ABCA334D04BC4A9E4A382 /* Pods-OpenHacksProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D84DD1110B5083C9C22F1EC3DE3153 /* Pods-OpenHacksProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22E95F01D6D5EC072F1468A69633BFF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2F3E55A74EB088C4D7896F4E1915401B /* Pods-OpenHacksProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EFB6F1DFEB88EF0AC67BE1A496EF34 /* Pods-OpenHacksProject-dummy.m */; };
+		7E7E98C4555D2F75A8B73469317FC654 /* Pods-OpenHacksProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1FFA46DF7537785CE80DF2D33A10B3 /* Pods-OpenHacksProjectTests-dummy.m */; };
+		8AC9A758E69A63A520917D31803AC9FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8D86F0EAFAF7F48F990D139EAC110765 /* Pods-OpenHacksProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3422448593C2AD0B05BFB9941E2472E5 /* Pods-OpenHacksProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B19D4F339572495F51488FA9744067 /* Pods-OpenHacksProject-OpenHacksProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA26FAA2C7382376991CC81C7B1B0937 /* Pods-OpenHacksProject-OpenHacksProjectUITests-dummy.m */; };
+		D622629E71AF1951B44640C305F5F572 /* Pods-OpenHacksProject-OpenHacksProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33764E4F1FBDBC6171BE34613A55642D /* Pods-OpenHacksProject-OpenHacksProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F45A30393BD40BE39367434C3DC82D57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6820EB7C27B590452C6220CA2AB6FD78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60724A53CD854EFFB1CC2A7CBFB2B1D;
+			remoteInfo = "Pods-OpenHacksProject";
+		};
+		733DFB426DEA5FA4B5075E7A35AA3913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C4F8ADD8C1671062D4A7C0FBAA5C98C;
+			remoteInfo = RadarSDK;
+		};
+		AEA071F4C97CF3EFAE19F1B4823AF0BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C4F8ADD8C1671062D4A7C0FBAA5C98C;
+			remoteInfo = RadarSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08771C6A85040095D9367D6F462E9B27 /* Pods-OpenHacksProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenHacksProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		09654EFEC7396C8C59F3D369E47AB622 /* RadarRouteDuration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarRouteDuration.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarRouteDuration.h; sourceTree = "<group>"; };
+		0C1FFA46DF7537785CE80DF2D33A10B3 /* Pods-OpenHacksProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenHacksProjectTests-dummy.m"; sourceTree = "<group>"; };
+		1224AB30EB2BD6DCE4294E773651BD9F /* Pods-OpenHacksProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenHacksProjectTests.modulemap"; sourceTree = "<group>"; };
+		14E39626E09C79C5E64B53EBC6019672 /* RadarUserInsightsState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarUserInsightsState.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarUserInsightsState.h; sourceTree = "<group>"; };
+		1C7D1E337A428E3C4AAB461CC128DD48 /* RadarPlace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarPlace.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarPlace.h; sourceTree = "<group>"; };
+		1DBD16453C8227FEF88017C45B99E400 /* RadarUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarUser.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarUser.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3214186CBFDE52BE0632890A8F6A6243 /* RadarSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RadarSDK.framework; path = dist/RadarSDK.framework; sourceTree = "<group>"; };
+		33764E4F1FBDBC6171BE34613A55642D /* Pods-OpenHacksProject-OpenHacksProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenHacksProject-OpenHacksProjectUITests-umbrella.h"; sourceTree = "<group>"; };
+		3422448593C2AD0B05BFB9941E2472E5 /* Pods-OpenHacksProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenHacksProject-umbrella.h"; sourceTree = "<group>"; };
+		39A912DA6296D593293079043CA9423E /* Pods-OpenHacksProject-OpenHacksProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenHacksProject-OpenHacksProjectUITests.modulemap"; sourceTree = "<group>"; };
+		3BCB2599DDF70F9F465B9B8E59CC0D11 /* Pods-OpenHacksProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenHacksProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		418043EBBFF4FBC965894F52D64BDEEB /* Pods-OpenHacksProject-OpenHacksProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenHacksProject-OpenHacksProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		418C4A1EAF92E58865DCB2471D2C1BB0 /* RadarCircleGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarCircleGeometry.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarCircleGeometry.h; sourceTree = "<group>"; };
+		4C279BADB34C9D310657EF7321458749 /* Pods-OpenHacksProject-OpenHacksProjectUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenHacksProject-OpenHacksProjectUITests-Info.plist"; sourceTree = "<group>"; };
+		4D2674948AF70915BD35D49DA0AE83E7 /* Pods-OpenHacksProjectTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenHacksProjectTests-Info.plist"; sourceTree = "<group>"; };
+		56DF2CFB0B1B8335FC1F8ED744562619 /* RadarUserInsights.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarUserInsights.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarUserInsights.h; sourceTree = "<group>"; };
+		57F1F30EB9A25C19ABC08FBD25A25245 /* Pods-OpenHacksProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenHacksProject.debug.xcconfig"; sourceTree = "<group>"; };
+		650CF6838C3CF3BD1FC324141127C1CF /* Pods-OpenHacksProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenHacksProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67C82FE7AD5D2A2FC4B3153A28D77229 /* Pods-OpenHacksProject-OpenHacksProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenHacksProject-OpenHacksProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67FF1B4BEBB7765D59A2CF83C9EA16EB /* Pods-OpenHacksProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenHacksProject.release.xcconfig"; sourceTree = "<group>"; };
+		6CE135E88C002942BD6C0167FF6B4FF9 /* Pods-OpenHacksProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenHacksProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6ED77DA9EBB991C6B0B34D7701E212FF /* RadarUserInsightsLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarUserInsightsLocation.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarUserInsightsLocation.h; sourceTree = "<group>"; };
+		75F53B333FBF77A485B34FE35D1FC845 /* RadarSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RadarSDK.debug.xcconfig; sourceTree = "<group>"; };
+		75F86B1ECD9BB1973FD584AD27EDE510 /* RadarRoutes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarRoutes.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarRoutes.h; sourceTree = "<group>"; };
+		79F14EB8F223CCD381D2B11DE007B128 /* RadarSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarSDK.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarSDK.h; sourceTree = "<group>"; };
+		7B9225954592C5651E78CD1AAFA57C77 /* Radar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Radar.h; path = dist/RadarSDK.framework/Versions/A/Headers/Radar.h; sourceTree = "<group>"; };
+		7BC8D0A6CC89702D02AA138714C60FE3 /* RadarDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarDelegate.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarDelegate.h; sourceTree = "<group>"; };
+		7D612F1006DA52FD5F1D3724BD7323FA /* RadarPolygonGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarPolygonGeometry.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarPolygonGeometry.h; sourceTree = "<group>"; };
+		815BD154472809992677C041405C0029 /* Pods_OpenHacksProject_OpenHacksProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenHacksProject_OpenHacksProjectUITests.framework; path = "Pods-OpenHacksProject-OpenHacksProjectUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8847C1E8D43A8508D8A35CB60EDC654E /* Pods-OpenHacksProject-OpenHacksProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenHacksProject-OpenHacksProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B51AA67FB482A136EA0F72FF40AAE88 /* RadarSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RadarSDK.release.xcconfig; sourceTree = "<group>"; };
+		8D7AE2FECA887ED6604B48828A9332EC /* Pods_OpenHacksProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenHacksProject.framework; path = "Pods-OpenHacksProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB221E816A306FC5A5E7154D1E5FA20 /* Pods-OpenHacksProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenHacksProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BCC0993F78E3BFCF26FB336B81B4CD3 /* Pods-OpenHacksProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenHacksProject.modulemap"; sourceTree = "<group>"; };
+		9C884AA69A2B3831609F716EAEA27E27 /* RadarContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarContext.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarContext.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E382CFA5CF872008ED464FAF8B89096 /* Pods_OpenHacksProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenHacksProjectTests.framework; path = "Pods-OpenHacksProjectTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0814D8C831A6A8CFF603650D3061EFB /* Pods-OpenHacksProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenHacksProject-Info.plist"; sourceTree = "<group>"; };
+		AA26FAA2C7382376991CC81C7B1B0937 /* Pods-OpenHacksProject-OpenHacksProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenHacksProject-OpenHacksProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		B1C67F3CE8DE8655675D240829DC0C44 /* RadarAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarAddress.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarAddress.h; sourceTree = "<group>"; };
+		B1EFB6F1DFEB88EF0AC67BE1A496EF34 /* Pods-OpenHacksProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenHacksProject-dummy.m"; sourceTree = "<group>"; };
+		B7CDA5D806994A51097FD9339606CBA8 /* RadarTrackingOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarTrackingOptions.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarTrackingOptions.h; sourceTree = "<group>"; };
+		B8A2B06A8262C5141675A2D29714BFBC /* Pods-OpenHacksProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenHacksProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA04BC6AC0FD48FA8B6E0657A27C72B6 /* RadarGeofence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarGeofence.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarGeofence.h; sourceTree = "<group>"; };
+		C0D84DD1110B5083C9C22F1EC3DE3153 /* Pods-OpenHacksProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenHacksProjectTests-umbrella.h"; sourceTree = "<group>"; };
+		CAD3EEA49B7312D17EDC19093A04A31F /* RadarRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarRegion.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarRegion.h; sourceTree = "<group>"; };
+		CE6959A11E2F07003FDB8E7F63A46C3C /* Pods-OpenHacksProject-OpenHacksProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenHacksProject-OpenHacksProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D840648F1670C51388A355975788BCC9 /* RadarChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarChain.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarChain.h; sourceTree = "<group>"; };
+		DF107DD308DD2C499D885A292F42D75F /* RadarSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarSegment.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarSegment.h; sourceTree = "<group>"; };
+		E9C2B64AD55DCBD5730F18F5F4C71738 /* RadarRouteDistance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarRouteDistance.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarRouteDistance.h; sourceTree = "<group>"; };
+		EA6BDBD92C04ACA9918C2D627608DEF9 /* RadarEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarEvent.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarEvent.h; sourceTree = "<group>"; };
+		ECB92787E38D56A756A55ACC60B736BC /* RadarGeofenceGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarGeofenceGeometry.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarGeofenceGeometry.h; sourceTree = "<group>"; };
+		F9CEB81E9D8EC9BDBF1E51B9C22D5538 /* RadarPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarPoint.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarPoint.h; sourceTree = "<group>"; };
+		FD6E4054294199C628609E8B5EF4D676 /* RadarCoordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarCoordinate.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarCoordinate.h; sourceTree = "<group>"; };
+		FF704432DA742757F236BAF2D2D9FB88 /* RadarRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadarRoute.h; path = dist/RadarSDK.framework/Versions/A/Headers/RadarRoute.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC766ED5D94E78A337567AF0AB11A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45A30393BD40BE39367434C3DC82D57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF3906B4467F67C8A0903F1CF19FA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC9A758E69A63A520917D31803AC9FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8CBACCBC7C437B92B822FF2012FCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E95F01D6D5EC072F1468A69633BFF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		612E2336AA60D66F1128B3417F7C1E5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75F53B333FBF77A485B34FE35D1FC845 /* RadarSDK.debug.xcconfig */,
+				8B51AA67FB482A136EA0F72FF40AAE88 /* RadarSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RadarSDK";
+			sourceTree = "<group>";
+		};
+		62E24F08C372DE1F2E2B503C6B101B55 /* RadarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7B9225954592C5651E78CD1AAFA57C77 /* Radar.h */,
+				B1C67F3CE8DE8655675D240829DC0C44 /* RadarAddress.h */,
+				D840648F1670C51388A355975788BCC9 /* RadarChain.h */,
+				418C4A1EAF92E58865DCB2471D2C1BB0 /* RadarCircleGeometry.h */,
+				9C884AA69A2B3831609F716EAEA27E27 /* RadarContext.h */,
+				FD6E4054294199C628609E8B5EF4D676 /* RadarCoordinate.h */,
+				7BC8D0A6CC89702D02AA138714C60FE3 /* RadarDelegate.h */,
+				EA6BDBD92C04ACA9918C2D627608DEF9 /* RadarEvent.h */,
+				BA04BC6AC0FD48FA8B6E0657A27C72B6 /* RadarGeofence.h */,
+				ECB92787E38D56A756A55ACC60B736BC /* RadarGeofenceGeometry.h */,
+				1C7D1E337A428E3C4AAB461CC128DD48 /* RadarPlace.h */,
+				F9CEB81E9D8EC9BDBF1E51B9C22D5538 /* RadarPoint.h */,
+				7D612F1006DA52FD5F1D3724BD7323FA /* RadarPolygonGeometry.h */,
+				CAD3EEA49B7312D17EDC19093A04A31F /* RadarRegion.h */,
+				FF704432DA742757F236BAF2D2D9FB88 /* RadarRoute.h */,
+				E9C2B64AD55DCBD5730F18F5F4C71738 /* RadarRouteDistance.h */,
+				09654EFEC7396C8C59F3D369E47AB622 /* RadarRouteDuration.h */,
+				75F86B1ECD9BB1973FD584AD27EDE510 /* RadarRoutes.h */,
+				79F14EB8F223CCD381D2B11DE007B128 /* RadarSDK.h */,
+				DF107DD308DD2C499D885A292F42D75F /* RadarSegment.h */,
+				B7CDA5D806994A51097FD9339606CBA8 /* RadarTrackingOptions.h */,
+				1DBD16453C8227FEF88017C45B99E400 /* RadarUser.h */,
+				56DF2CFB0B1B8335FC1F8ED744562619 /* RadarUserInsights.h */,
+				6ED77DA9EBB991C6B0B34D7701E212FF /* RadarUserInsightsLocation.h */,
+				14E39626E09C79C5E64B53EBC6019672 /* RadarUserInsightsState.h */,
+				B4032AAE1DD6696D23F7A6788F9B959F /* Frameworks */,
+				612E2336AA60D66F1128B3417F7C1E5B /* Support Files */,
+			);
+			name = RadarSDK;
+			path = RadarSDK;
+			sourceTree = "<group>";
+		};
+		8F73665E7097FA82FB0F5420A428ED06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62E24F08C372DE1F2E2B503C6B101B55 /* RadarSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93F1BC9211C502441221F1A7DDBDF68A /* Pods-OpenHacksProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				1224AB30EB2BD6DCE4294E773651BD9F /* Pods-OpenHacksProjectTests.modulemap */,
+				650CF6838C3CF3BD1FC324141127C1CF /* Pods-OpenHacksProjectTests-acknowledgements.markdown */,
+				6CE135E88C002942BD6C0167FF6B4FF9 /* Pods-OpenHacksProjectTests-acknowledgements.plist */,
+				0C1FFA46DF7537785CE80DF2D33A10B3 /* Pods-OpenHacksProjectTests-dummy.m */,
+				4D2674948AF70915BD35D49DA0AE83E7 /* Pods-OpenHacksProjectTests-Info.plist */,
+				C0D84DD1110B5083C9C22F1EC3DE3153 /* Pods-OpenHacksProjectTests-umbrella.h */,
+				8FB221E816A306FC5A5E7154D1E5FA20 /* Pods-OpenHacksProjectTests.debug.xcconfig */,
+				3BCB2599DDF70F9F465B9B8E59CC0D11 /* Pods-OpenHacksProjectTests.release.xcconfig */,
+			);
+			name = "Pods-OpenHacksProjectTests";
+			path = "Target Support Files/Pods-OpenHacksProjectTests";
+			sourceTree = "<group>";
+		};
+		B15C26DEFC7660B8F69AD4F26847CAA3 /* Pods-OpenHacksProject */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC0993F78E3BFCF26FB336B81B4CD3 /* Pods-OpenHacksProject.modulemap */,
+				B8A2B06A8262C5141675A2D29714BFBC /* Pods-OpenHacksProject-acknowledgements.markdown */,
+				08771C6A85040095D9367D6F462E9B27 /* Pods-OpenHacksProject-acknowledgements.plist */,
+				B1EFB6F1DFEB88EF0AC67BE1A496EF34 /* Pods-OpenHacksProject-dummy.m */,
+				A0814D8C831A6A8CFF603650D3061EFB /* Pods-OpenHacksProject-Info.plist */,
+				3422448593C2AD0B05BFB9941E2472E5 /* Pods-OpenHacksProject-umbrella.h */,
+				57F1F30EB9A25C19ABC08FBD25A25245 /* Pods-OpenHacksProject.debug.xcconfig */,
+				67FF1B4BEBB7765D59A2CF83C9EA16EB /* Pods-OpenHacksProject.release.xcconfig */,
+			);
+			name = "Pods-OpenHacksProject";
+			path = "Target Support Files/Pods-OpenHacksProject";
+			sourceTree = "<group>";
+		};
+		B4032AAE1DD6696D23F7A6788F9B959F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3214186CBFDE52BE0632890A8F6A6243 /* RadarSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8F73665E7097FA82FB0F5420A428ED06 /* Pods */,
+				F965D805E6B257F3B13402114212B928 /* Products */,
+				F5AA610E228F3C17A8C44373C1B117D8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC76F1A89EFFE04520D8EC3C5180584F /* Pods-OpenHacksProject-OpenHacksProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39A912DA6296D593293079043CA9423E /* Pods-OpenHacksProject-OpenHacksProjectUITests.modulemap */,
+				CE6959A11E2F07003FDB8E7F63A46C3C /* Pods-OpenHacksProject-OpenHacksProjectUITests-acknowledgements.markdown */,
+				8847C1E8D43A8508D8A35CB60EDC654E /* Pods-OpenHacksProject-OpenHacksProjectUITests-acknowledgements.plist */,
+				AA26FAA2C7382376991CC81C7B1B0937 /* Pods-OpenHacksProject-OpenHacksProjectUITests-dummy.m */,
+				4C279BADB34C9D310657EF7321458749 /* Pods-OpenHacksProject-OpenHacksProjectUITests-Info.plist */,
+				33764E4F1FBDBC6171BE34613A55642D /* Pods-OpenHacksProject-OpenHacksProjectUITests-umbrella.h */,
+				67C82FE7AD5D2A2FC4B3153A28D77229 /* Pods-OpenHacksProject-OpenHacksProjectUITests.debug.xcconfig */,
+				418043EBBFF4FBC965894F52D64BDEEB /* Pods-OpenHacksProject-OpenHacksProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-OpenHacksProject-OpenHacksProjectUITests";
+			path = "Target Support Files/Pods-OpenHacksProject-OpenHacksProjectUITests";
+			sourceTree = "<group>";
+		};
+		F5AA610E228F3C17A8C44373C1B117D8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B15C26DEFC7660B8F69AD4F26847CAA3 /* Pods-OpenHacksProject */,
+				DC76F1A89EFFE04520D8EC3C5180584F /* Pods-OpenHacksProject-OpenHacksProjectUITests */,
+				93F1BC9211C502441221F1A7DDBDF68A /* Pods-OpenHacksProjectTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F965D805E6B257F3B13402114212B928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D7AE2FECA887ED6604B48828A9332EC /* Pods_OpenHacksProject.framework */,
+				815BD154472809992677C041405C0029 /* Pods_OpenHacksProject_OpenHacksProjectUITests.framework */,
+				9E382CFA5CF872008ED464FAF8B89096 /* Pods_OpenHacksProjectTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C965245972E96AD9C59F22E7CDAD39B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D86F0EAFAF7F48F990D139EAC110765 /* Pods-OpenHacksProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB70392F5E2F2E259059EA08F0F01F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D622629E71AF1951B44640C305F5F572 /* Pods-OpenHacksProject-OpenHacksProjectUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCF7C3BD17D59E708227CB25942D99B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD5686D1A5ABCA334D04BC4A9E4A382 /* Pods-OpenHacksProjectTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		109986B7208A0F19B011EA219B2C79A0 /* Pods-OpenHacksProject-OpenHacksProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7054CCBC7B2176E59C0865BA787ECB0 /* Build configuration list for PBXNativeTarget "Pods-OpenHacksProject-OpenHacksProjectUITests" */;
+			buildPhases = (
+				DBB70392F5E2F2E259059EA08F0F01F3 /* Headers */,
+				BF9AAF77778C4130A023AEFEBE89D094 /* Sources */,
+				EB8CBACCBC7C437B92B822FF2012FCC2 /* Frameworks */,
+				C437C29AD3BC0C146FC67061A795E6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF3E8CEBDB60D7A2389BE0A4CECC2E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenHacksProject-OpenHacksProjectUITests";
+			productName = "Pods-OpenHacksProject-OpenHacksProjectUITests";
+			productReference = 815BD154472809992677C041405C0029 /* Pods_OpenHacksProject_OpenHacksProjectUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45A05CF7E15C8B54BC4AD9CEF2AA07E2 /* Pods-OpenHacksProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0181A58B22D85BA39B5945974CE1347C /* Build configuration list for PBXNativeTarget "Pods-OpenHacksProjectTests" */;
+			buildPhases = (
+				ECCF7C3BD17D59E708227CB25942D99B /* Headers */,
+				4C9A1158049C13BC4835FCF2D03326AB /* Sources */,
+				4DC766ED5D94E78A337567AF0AB11A65 /* Frameworks */,
+				CBB0CD07555822DBEC15330EBF75581F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				613966CA2A4D951FC9A5EF9A117523B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenHacksProjectTests";
+			productName = "Pods-OpenHacksProjectTests";
+			productReference = 9E382CFA5CF872008ED464FAF8B89096 /* Pods_OpenHacksProjectTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B60724A53CD854EFFB1CC2A7CBFB2B1D /* Pods-OpenHacksProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DF6062C778FB8E346800DEF4F5C6EA /* Build configuration list for PBXNativeTarget "Pods-OpenHacksProject" */;
+			buildPhases = (
+				C965245972E96AD9C59F22E7CDAD39B6 /* Headers */,
+				4C02C6C3175788FA37414729F80891F2 /* Sources */,
+				6AF3906B4467F67C8A0903F1CF19FA31 /* Frameworks */,
+				BF5E5E0204B44105B6BC007FEB28C37B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D0E1BCB1516A4A7EB45A469E6296A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenHacksProject";
+			productName = "Pods-OpenHacksProject";
+			productReference = 8D7AE2FECA887ED6604B48828A9332EC /* Pods_OpenHacksProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F965D805E6B257F3B13402114212B928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B60724A53CD854EFFB1CC2A7CBFB2B1D /* Pods-OpenHacksProject */,
+				109986B7208A0F19B011EA219B2C79A0 /* Pods-OpenHacksProject-OpenHacksProjectUITests */,
+				45A05CF7E15C8B54BC4AD9CEF2AA07E2 /* Pods-OpenHacksProjectTests */,
+				7C4F8ADD8C1671062D4A7C0FBAA5C98C /* RadarSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5E5E0204B44105B6BC007FEB28C37B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C437C29AD3BC0C146FC67061A795E6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB0CD07555822DBEC15330EBF75581F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C02C6C3175788FA37414729F80891F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3E55A74EB088C4D7896F4E1915401B /* Pods-OpenHacksProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9A1158049C13BC4835FCF2D03326AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7E98C4555D2F75A8B73469317FC654 /* Pods-OpenHacksProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9AAF77778C4130A023AEFEBE89D094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B19D4F339572495F51488FA9744067 /* Pods-OpenHacksProject-OpenHacksProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		613966CA2A4D951FC9A5EF9A117523B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OpenHacksProject";
+			target = B60724A53CD854EFFB1CC2A7CBFB2B1D /* Pods-OpenHacksProject */;
+			targetProxy = 6820EB7C27B590452C6220CA2AB6FD78 /* PBXContainerItemProxy */;
+		};
+		ACF3E8CEBDB60D7A2389BE0A4CECC2E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RadarSDK;
+			target = 7C4F8ADD8C1671062D4A7C0FBAA5C98C /* RadarSDK */;
+			targetProxy = 733DFB426DEA5FA4B5075E7A35AA3913 /* PBXContainerItemProxy */;
+		};
+		F0D0E1BCB1516A4A7EB45A469E6296A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RadarSDK;
+			target = 7C4F8ADD8C1671062D4A7C0FBAA5C98C /* RadarSDK */;
+			targetProxy = AEA071F4C97CF3EFAE19F1B4823AF0BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E9DA3C622062FC92B58CEC6A92F2A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCB2599DDF70F9F465B9B8E59CC0D11 /* Pods-OpenHacksProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenHacksProjectTests/Pods-OpenHacksProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenHacksProjectTests/Pods-OpenHacksProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2920DB3F2128739E48BDCB0D7146CF9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418043EBBFF4FBC965894F52D64BDEEB /* Pods-OpenHacksProject-OpenHacksProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenHacksProject-OpenHacksProjectUITests/Pods-OpenHacksProject-OpenHacksProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenHacksProject-OpenHacksProjectUITests/Pods-OpenHacksProject-OpenHacksProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AE606A2A6AD514679943C989B1C3B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B51AA67FB482A136EA0F72FF40AAE88 /* RadarSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3256F37C4E08C2F53A98FFF5BA9D8833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C82FE7AD5D2A2FC4B3153A28D77229 /* Pods-OpenHacksProject-OpenHacksProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenHacksProject-OpenHacksProjectUITests/Pods-OpenHacksProject-OpenHacksProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenHacksProject-OpenHacksProjectUITests/Pods-OpenHacksProject-OpenHacksProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		993C6870D654348074F193434214EF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FF1B4BEBB7765D59A2CF83C9EA16EB /* Pods-OpenHacksProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenHacksProject/Pods-OpenHacksProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenHacksProject/Pods-OpenHacksProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8D774BAC931D6F2CBF1B5E86363DFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB221E816A306FC5A5E7154D1E5FA20 /* Pods-OpenHacksProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenHacksProjectTests/Pods-OpenHacksProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenHacksProjectTests/Pods-OpenHacksProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C17A4BC64DC2C684B93EB8DE537A2476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F1F30EB9A25C19ABC08FBD25A25245 /* Pods-OpenHacksProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenHacksProject/Pods-OpenHacksProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenHacksProject/Pods-OpenHacksProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF1484DCF8F0FE8F7471F289C4853CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F53B333FBF77A485B34FE35D1FC845 /* RadarSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0181A58B22D85BA39B5945974CE1347C /* Build configuration list for PBXNativeTarget "Pods-OpenHacksProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D774BAC931D6F2CBF1B5E86363DFB2 /* Debug */,
+				0E9DA3C622062FC92B58CEC6A92F2A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A913BA5087965703FB7351FBB01FF8 /* Build configuration list for PBXAggregateTarget "RadarSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1484DCF8F0FE8F7471F289C4853CB2 /* Debug */,
+				2AE606A2A6AD514679943C989B1C3B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33DF6062C778FB8E346800DEF4F5C6EA /* Build configuration list for PBXNativeTarget "Pods-OpenHacksProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17A4BC64DC2C684B93EB8DE537A2476 /* Debug */,
+				993C6870D654348074F193434214EF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7054CCBC7B2176E59C0865BA787ECB0 /* Build configuration list for PBXNativeTarget "Pods-OpenHacksProject-OpenHacksProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3256F37C4E08C2F53A98FFF5BA9D8833 /* Debug */,
+				2920DB3F2128739E48BDCB0D7146CF9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
