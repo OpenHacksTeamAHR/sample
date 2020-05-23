@@ -15,6 +15,7 @@
 		59F9A17124786EAE00C998CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F9A16F24786EAE00C998CE /* LaunchScreen.storyboard */; };
 		59F9A17C24786EAE00C998CE /* OpenHacksProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A17B24786EAE00C998CE /* OpenHacksProjectTests.swift */; };
 		59F9A18724786EAF00C998CE /* OpenHacksProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F9A18624786EAF00C998CE /* OpenHacksProjectUITests.swift */; };
+		BBD58EFA24798DE90028CD6C /* InLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD58EF924798DE90028CD6C /* InLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		59F9A18224786EAF00C998CE /* OpenHacksProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenHacksProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F9A18624786EAF00C998CE /* OpenHacksProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenHacksProjectUITests.swift; sourceTree = "<group>"; };
 		59F9A18824786EAF00C998CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBD58EF924798DE90028CD6C /* InLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				59F9A16424786EAB00C998CE /* AppDelegate.swift */,
 				59F9A16624786EAB00C998CE /* SceneDelegate.swift */,
+				BBD58EF924798DE90028CD6C /* InLocation.swift */,
 				59F9A16824786EAB00C998CE /* ContentView.swift */,
 				59F9A16A24786EAE00C998CE /* Assets.xcassets */,
 				59F9A16F24786EAE00C998CE /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 				59F9A16524786EAB00C998CE /* AppDelegate.swift in Sources */,
 				59F9A16724786EAB00C998CE /* SceneDelegate.swift in Sources */,
 				59F9A16924786EAB00C998CE /* ContentView.swift in Sources */,
+				BBD58EFA24798DE90028CD6C /* InLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
