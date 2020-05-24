@@ -1,18 +1,18 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
-target 'OpenHacksProject' do
-  # Comment the next line if you don't want to use dynamic frameworks
+# platform :ios, ‘9.0’
+target ‘OpenHacksProject’ do
+  # Comment the next line if you don’t want to use dynamic frameworks
   use_frameworks!
-
   # Pods for OpenHacksProject
-  pod 'RadarSDK', '~> 3.0.0'
-  target 'OpenHacksProjectTests' do
+  pod ‘RadarSDK’, ‘~> 3.0.0’
+  # add the Firebase pod for Google Analytics
+  pod ‘Firebase/Analytics’
+  pod ‘FirebaseFirestoreSwift’
+  target ‘OpenHacksProjectTests’ do
     inherit! :search_paths
     # Pods for testing
   end
-
-  target 'OpenHacksProjectUITests' do
+  target ‘OpenHacksProjectUITests’ do
     # Pods for testing
   end
-
 end

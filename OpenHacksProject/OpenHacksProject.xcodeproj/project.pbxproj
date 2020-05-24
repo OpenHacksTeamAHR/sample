@@ -203,6 +203,7 @@
 				59F9A15D24786EAB00C998CE /* Sources */,
 				59F9A15E24786EAB00C998CE /* Frameworks */,
 				59F9A15F24786EAB00C998CE /* Resources */,
+				488AC37E7AE82CC9179E6979 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,6 +241,7 @@
 				59F9A17E24786EAF00C998CE /* Sources */,
 				59F9A17F24786EAF00C998CE /* Frameworks */,
 				59F9A18024786EAF00C998CE /* Resources */,
+				20FFFD4AC7028186597CE4B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,6 +324,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		20FFFD4AC7028186597CE4B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenHacksProject-OpenHacksProjectUITests/Pods-OpenHacksProject-OpenHacksProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenHacksProject-OpenHacksProjectUITests/Pods-OpenHacksProject-OpenHacksProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenHacksProject-OpenHacksProjectUITests/Pods-OpenHacksProject-OpenHacksProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		488AC37E7AE82CC9179E6979 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenHacksProject/Pods-OpenHacksProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenHacksProject/Pods-OpenHacksProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenHacksProject/Pods-OpenHacksProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5D1A189F4E487EBF69A42097 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
