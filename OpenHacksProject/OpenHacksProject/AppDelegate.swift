@@ -8,6 +8,9 @@
 
 import UIKit
 import RadarSDK
+import Firebase
+import FirebaseFirestore
+import GoogleSignIn
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         Radar.initialize(publishableKey: "prj_live_pk_30f7f876bf55bd982f09410b6fb608c9184955b0")
+        FirebaseApp.configure()
+        let db = Firestore.firestore()
+        print(db)
         let locManager = CLLocationManager()
-        locManager.requestWhenInUseAuthorization()
+        locManager.requestAlwaysAuthorization()
         return true
     }
 
