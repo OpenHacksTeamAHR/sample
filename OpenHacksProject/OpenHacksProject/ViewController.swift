@@ -11,6 +11,8 @@ import UIKit
 import Firebase
 import FirebaseFirestore
 import FirebaseFirestoreSwift
+import GoogleSignIn
+
 
     class ViewController: UIViewController {
         
@@ -19,18 +21,17 @@ import FirebaseFirestoreSwift
         @IBOutlet weak var backgroundGradientView: UIView!
         
         
-        
         var locationManager = CLLocationManager()
         override func viewDidLoad() {
            super.viewDidLoad()
-
+            
            // [START setup]
-           let settings = FirestoreSettings()
-
-           Firestore.firestore().settings = settings
-           db = Firestore.firestore()
+            let settings = FirestoreSettings()
+            Firestore.firestore().settings = settings
+            db = Firestore.firestore()
+            GIDSignIn.sharedInstance()?.presentingViewController = self
+            GIDSignIn.sharedInstance().signIn()
            // [END setup]
-           addLoc()
         }
         
         override func didReceiveMemoryWarning() {
@@ -46,7 +47,6 @@ import FirebaseFirestoreSwift
         
         private func addLoc(){
             let locationManager = CLLocationManager()
-            super.viewDidLoad()
             locationManager.requestAlwaysAuthorization()
             var currentLoc: CLLocation!
             if(CLLocationManager.authorizationStatus() == .authorizedWhenInUse ||
@@ -55,9 +55,14 @@ import FirebaseFirestoreSwift
                print(currentLoc.coordinate.latitude)
                print(currentLoc.coordinate.longitude)
             }
+            else{
+                return
+            }
+            print("should work")
             var ref: DocumentReference? = nil
             ref = db.collection("users").addDocument(data:[
-                "location": [currentLoc.coordinate.latitude, currentLoc.coordinate.longitude]
+                "lat": currentLoc.coordinate.latitude,
+                "long": currentLoc.coordinate.longitude
             ]) { err in
                 if let err = err {
                     print("Error adding document: \(err)")
@@ -65,6 +70,7 @@ import FirebaseFirestoreSwift
                     print("Document added with ID: \(ref!.documentID)")
                 }
             }
+            return
         }
         
         private func getCollection() {
@@ -78,6 +84,7 @@ import FirebaseFirestoreSwift
                     }
                 }
             }
+            return
             // [END get_collection]
         }
         
