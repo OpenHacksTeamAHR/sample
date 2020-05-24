@@ -5,7 +5,6 @@
 //  Created by Rahul Rao on 5/23/20.
 //  Copyright © 2020 OpenHacks Project. All rights reserved.
 //
-
 import CoreLocation
 import Foundation
 import UIKit
@@ -61,9 +60,9 @@ import FirebaseFirestoreSwift
                 "location": [currentLoc.coordinate.latitude, currentLoc.coordinate.longitude]
             ]) { err in
                 if let err = err {
-                    print("Error writing document: \(err)")
+                    print("Error adding document: \(err)")
                 } else {
-                    print("Document successfully written!")
+                    print("Document added with ID: \(ref!.documentID)")
                 }
             }
         }
@@ -103,4 +102,3 @@ import FirebaseFirestoreSwift
         
  
 }
-
