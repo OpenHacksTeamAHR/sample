@@ -1,106 +1,43 @@
+
 //
-//  ViewController.swift
+//  AppDelegate.swift
 //  OpenHacksProject
 //
-//  Created by Rahul Rao on 5/23/20.
-//  Copyright © 2020 OpenHacks Project. All rights reserved.
+//  Created by Rahul Rao on 5/22/20.
+//  Copyright © 2020 Rahul Rao. All rights reserved.
 //
-
-import CoreLocation
-import Foundation
 import UIKit
+import RadarSDK
 import Firebase
 import FirebaseFirestore
-import FirebaseFirestoreSwift
+import GoogleSignIn
 
-    class ViewController: UIViewController {
-        
-        var db: Firestore!
-        
-        @IBOutlet weak var backgroundGradientView: UIView!
-        
-        
-        
-        var locationManager = CLLocationManager()
-        override func viewDidLoad() {
-           super.viewDidLoad()
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
-           // [START setup]
-           let settings = FirestoreSettings()
 
-           Firestore.firestore().settings = settings
-           db = Firestore.firestore()
-           // [END setup]
-           addLoc()
-        }
-        
-        override func didReceiveMemoryWarning() {
-            super.didReceiveMemoryWarning()
-        }
-        
-        @IBAction func didTouchSmokeTestButton(_ sender: AnyObject) {
-            // Quickstar
-            addLoc()
-            getCollection()
-            
-        }
-        
-        private func addLoc(){
-            let locationManager = CLLocationManager()
-            super.viewDidLoad()
-            locationManager.requestAlwaysAuthorization()
-            var currentLoc: CLLocation!
-            if(CLLocationManager.authorizationStatus() == .authorizedWhenInUse ||
-            CLLocationManager.authorizationStatus() == .authorizedAlways) {
-               currentLoc = locationManager.location
-               print(currentLoc.coordinate.latitude)
-               print(currentLoc.coordinate.longitude)
-            }
-            var ref: DocumentReference? = nil
-            ref = db.collection("users").addDocument(data: [
-                "location": [currentLoc.coordinate.latitude, currentLoc.coordinate.longitude]
-            ]) { err in
-                if let err = err {
-                    print("Error adding document: \(err)")
-                } else {
-                    print("Document added with ID: \(ref!.documentID)")
-                }
-            }
-        }
-        
-        private func getCollection() {
-            // [START get_collection]
-            db.collection("users").getDocuments() { (querySnapshot, err) in
-                if let err = err {
-                    print("Error getting documents: \(err)")
-                } else {
-                    for document in querySnapshot!.documents {
-                        print("\(document.documentID) => \(document.data())")
-                    }
-                }
-            }
-            // [END get_collection]
-        }
-        
-       // private func checkvi(){
-            
-       // }
-        
-        func vibrateTime(dist: Float) -> Float {
-            if (dist>=12){
-                return 0
-            }
-            return Float(pow(Double(1.2),Double(dist)))/6
-        }
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        Radar.initialize(publishableKey: "prj_live_pk_30f7f876bf55bd982f09410b6fb608c9184955b0")
+        FirebaseApp.configure()
+        let db = Firestore.firestore()
+        print(db)
+        let locManager = CLLocationManager()
+        locManager.requestAlwaysAuthorization()
+        return true
+    }
 
-        func distBetween(xone:Float, yone:Float, xtwo:Float, ytwo:Float) -> Float{
-            return sqrtf((yone-ytwo)*(yone-ytwo)-(xone-xtwo)*(xone-xtwo))
-        }
-        
-        override var shouldAutorotate: Bool {
-            return false
-        }
-        
- 
+    // MARK: UISceneSession Lifecycle
+    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+        // Called when a new scene session is being created.
+        // Use this method to select a configuration to create the new scene with.
+        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+    }
+
+    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
+        // Called when the user discards a scene session.
+        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
+        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+    }
+
+
 }
-
