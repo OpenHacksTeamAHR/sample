@@ -56,8 +56,7 @@ import FirebaseFirestoreSwift
                print(currentLoc.coordinate.latitude)
                print(currentLoc.coordinate.longitude)
             }
-            var ref: DocumentReference? = nil
-            ref = db.collection("users").addDocument().setData([
+            db.collection("users").document("test").setData([
                 "location": [currentLoc.coordinate.latitude, currentLoc.coordinate.longitude]
             ]) { err in
                 if let err = err {
