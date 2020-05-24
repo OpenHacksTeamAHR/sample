@@ -55,14 +55,13 @@ import FirebaseFirestoreSwift
                print(currentLoc.coordinate.latitude)
                print(currentLoc.coordinate.longitude)
             }
-             var ref: DocumentReference? = nil
-             ref = db.collection("users").addDocument(data: [
-                 "location": [currentLoc.coordinate.latitude, currentLoc.coordinate.longitude],
+            db.collection("cities").document().setData([
+                 "location": [currentLoc.coordinate.latitude, currentLoc.coordinate.longitude]
              ]) { err in
                  if let err = err {
-                     print("Error adding document: \(err)")
+                     print("Error writing document: \(err)")
                  } else {
-                     print("Document added with ID: \(ref!.documentID)")
+                     print("Document successfully written!")
                  }
              }
         }
