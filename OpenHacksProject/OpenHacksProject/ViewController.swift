@@ -9,6 +9,7 @@ import CoreLocation
 import Foundation
 import UIKit
 import Firebase
+import FirebaseCore
 import FirebaseFirestore
 import FirebaseFirestoreSwift
 import GoogleSignIn
@@ -18,10 +19,9 @@ import GoogleSignIn
         
         var db: Firestore!
         
-        @IBOutlet weak var backgroundGradientView: UIView!
-        
         
         var locationManager = CLLocationManager()
+        
         override func viewDidLoad() {
            super.viewDidLoad()
             
@@ -32,6 +32,8 @@ import GoogleSignIn
             GIDSignIn.sharedInstance()?.presentingViewController = self
             GIDSignIn.sharedInstance().signIn()
            // [END setup]
+            getCollection()
+            
         }
         
         override func didReceiveMemoryWarning() {
@@ -40,29 +42,23 @@ import GoogleSignIn
         
         @IBAction func didTouchSmokeTestButton(_ sender: AnyObject) {
             // Quickstar
-            addLoc()
+            writetoserv()
             getCollection()
             
         }
+        private func setupCacheSize() {
+            // [START fs_setup_cache]
+            let settings = Firestore.firestore().settings
+            settings.cacheSizeBytes = FirestoreCacheSizeUnlimited
+            Firestore.firestore().settings = settings
+            // [END fs_setup_cache]
+        }
         
-        private func addLoc(){
-            let locationManager = CLLocationManager()
-            locationManager.requestAlwaysAuthorization()
-            var currentLoc: CLLocation!
-            if(CLLocationManager.authorizationStatus() == .authorizedWhenInUse ||
-            CLLocationManager.authorizationStatus() == .authorizedAlways) {
-               currentLoc = locationManager.location
-               print(currentLoc.coordinate.latitude)
-               print(currentLoc.coordinate.longitude)
-            }
-            else{
-                return
-            }
-            print("should work")
+        private func writetoserv(){
             var ref: DocumentReference? = nil
-            ref = db.collection("users").addDocument(data:[
-                "lat": currentLoc.coordinate.latitude,
-                "long": currentLoc.coordinate.longitude
+            ref = db.collection("users").addDocument(data: [
+                "lat": Loc().0,
+                "long": Loc().1
             ]) { err in
                 if let err = err {
                     print("Error adding document: \(err)")
@@ -70,7 +66,22 @@ import GoogleSignIn
                     print("Document added with ID: \(ref!.documentID)")
                 }
             }
-            return
+        }
+        
+        
+        private func Loc() -> (CLLocationDegrees, CLLocationDegrees){
+            let locationManager = CLLocationManager()
+            //locationManager.requestWhenInUseAuthorization()
+            //locationManager.requestAlwaysAuthorization()
+            var currentLoc: CLLocation!
+            if(CLLocationManager.authorizationStatus() == .authorizedWhenInUse ||
+            CLLocationManager.authorizationStatus() == .authorizedAlways) {
+               currentLoc = locationManager.location
+                return (currentLoc.coordinate.latitude, currentLoc.coordinate.longitude)
+            }
+            else{
+                return (0, 0)
+            }
         }
         
         private func getCollection() {
@@ -92,14 +103,14 @@ import GoogleSignIn
             
        // }
         
-        func vibrateTime(dist: Float) -> Float {
+        private func vibrateTime(dist: Float) -> Float {
             if (dist>=12){
                 return 0
             }
             return Float(pow(Double(1.2),Double(dist)))/6
         }
 
-        func distBetween(xone:Float, yone:Float, xtwo:Float, ytwo:Float) -> Float{
+        private func distBetween(xone:Float, yone:Float, xtwo:Float, ytwo:Float) -> Float{
             return sqrtf((yone-ytwo)*(yone-ytwo)-(xone-xtwo)*(xone-xtwo))
         }
         
