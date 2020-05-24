@@ -9,7 +9,7 @@
 import CoreLocation
 import Foundation
 import UIKit
-import firebase
+import Firebase
 
     class ViewController: UIViewController {
         @IBOutlet weak var backgroundGradientView: UIView!
