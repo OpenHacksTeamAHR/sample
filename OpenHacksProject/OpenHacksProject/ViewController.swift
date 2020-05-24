@@ -31,6 +31,7 @@ import FirebaseFirestoreSwift
            Firestore.firestore().settings = settings
            db = Firestore.firestore()
            // [END setup]
+           addLoc()
         }
         
         override func didReceiveMemoryWarning() {
